@@ -1,10 +1,24 @@
-.add-icon {
+.add-icon .fa {
   font-size: 3.5rem;
   color: #00A8E8;
-  transition: 0.8s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
+  padding: 15px;
 }
 
-.add-icon:hover {
+.add-icon .fa:hover {
   color: #028abe;
+  transform: scale(1.1);
+}
+
+.main-body-container {
+  text-align: center;
+}
+
+.todo-strike {
+  text-decoration: line-through;
+}
+
+.no-strike {
+  text-decoration: none;
 }
