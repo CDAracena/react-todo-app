@@ -1,0 +1,10 @@
+.add-icon {
+  font-size: 3.5rem;
+  color: #00A8E8;
+  transition: 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.add-icon:hover {
+  color: #028abe;
+}
